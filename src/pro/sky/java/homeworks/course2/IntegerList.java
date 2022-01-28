@@ -29,17 +29,21 @@ public interface IntegerList {
         // Вернуть удаленный элемент
         // или исключение, если подобный
         // элемент отсутствует в списке.
-        Integer remove(Integer item);
+//        Integer remove(Integer item);
 
         // Удаление элемента по индексу.
         // Вернуть удаленный элемент
         // или исключение, если подобный
         // элемент отсутствует в списке.
-        Integer remove(int index);
+//        Integer remove(int index);
 
         // Проверка на существование элемента.
         // Вернуть true/false;
         boolean contains(Integer item);
+
+        Integer removeItem(Integer item);
+
+        Integer removeByIndex(int index);
 
         // Поиск элемента.
         // Вернуть индекс элемента
